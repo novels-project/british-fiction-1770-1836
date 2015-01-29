@@ -7,6 +7,10 @@ list of novels described in the following sources:
 * "The English Novel, 1830-1836," ed. Garside et al. http://www.cardiff.ac.uk/encap/journals/corvey/1830s/index.html
 * Updates 1-6. http://www.romtext.cf.ac.uk/reports/index.html
 
+## Data
+
+- Data `http://www.british-fiction.cf.ac.uk` was retrieved using `scripts/download-british-fiction-1800-1836.py`.
+
 ## TODO
 
 - Add 1770–99
