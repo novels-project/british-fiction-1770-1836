@@ -1,0 +1,258 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>British Fiction 1800&#8211;1829: Title Details</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="britishFiction.css" rel="stylesheet" type="text/css">
+<SCRIPT type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+function popup(url)
+{
+  newwindow=window.open(url,'name','width=750,height=550,left=0,top=0,resizable=yes,scrollbars=yes,menubar=no,status=no,toolbar=no,location=no');
+  if (window.focus) { newwindow.focus() }
+  return false;
+}
+
+// -->
+</SCRIPT>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24801808-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+<body onLoad="MM_preloadImages('images/navbar/homeon.gif','images/navbar/srchon.gif','images/navbar/brwson.gif','images/navbar/guidon.gif','images/navbar/credon.gif','images/navbar/linkon.gif','images/navbar/abbron.gif','images/navbar/updon.gif','images/navbar/srceon.gif','images/navbar/siteon.gif','images/records/prevon.gif','images/records/nexton.gif','images/upon.gif')" >
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="navBlock">
+  <tr align="center"> 
+    <td width="125" height="22" align="center" bgcolor="#564894" class="navBlock">&nbsp;</td>
+    <td height="22" colspan="6" align="center" valign="middle" bgcolor="#564894"> 
+      <a href="http://www.cf.ac.uk/encap/ceir"><img src="images/ceirlogo.gif" alt="Click here to go to the CEIR website." width="362" height="22" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td width="125" height="80" align="center" valign="middle" background="images/backgrnd.gif" class="navBlock"> 
+        <img src="images/oakessm.jpg" alt="Oakes Profile" width="75" height="75"> 
+    </td>
+    <td height="80" align="center" valign="middle" background="images/backgrnd.gif"> 
+        <img src="images/masthead.gif" alt="British Fiction, 1800&#8211;1829: A Database of Production, Circulation &amp; Reception" width="376" height="73" align="absmiddle"> 
+    </td>
+  </tr>
+  <tr valign="middle"> 
+    <td width="125" height="22" align="center" bgcolor="#564894" class="navBlock">&nbsp;</td>
+    <td height="22" colspan="5" align="center" bgcolor="#564894"><font color="#FFFFFF" size="-1">Title 
+      Details</font></td>
+  </tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF" width="100%" height="100%">
+  <tr> 
+    <td width="125" rowspan="16" align="center" valign="top" bgcolor="#B6E3F7" class="navBlock"> 
+
+      <table width="125" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr align="center" valign="middle"> 
+          <td height="15">&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td width="125" height="30"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/navbar/homeon.gif',1)"><img src="images/navbar/homeoff.gif" alt="Click here to take you back to the British Fiction homepage." name="home" width="125" height="30" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+                    <td width="125" height="30"><a href="search.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Search','','images/navbar/srchon.gif',1)"><img src="images/navbar/srchoff.gif" alt="Click here to search the database." name="search" width="125" height="30" border="0" id="search"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+                    <td width="125" height="30"><a href="browse.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('browse','','images/navbar/brwson.gif',1)"><img src="images/navbar/brwsoff.gif" alt="Click here to browse titles by author, title, or publisher." name="browse" width="125" height="30" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="1">&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="30"><a href="guide/guide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('guide','','images/navbar/guidon.gif',1)"><img src="images/navbar/guidoff.gif" alt="Click here for guidelines on how to use the database." name="guide" width="125" height="30" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td width="125" height="30"><a href="guide/abbrev.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('abbrev','','images/navbar/abbron.gif',1)"><img src="images/navbar/abbroff.gif" alt="Click here to see a list of abbreviations used in the database." name="abbrev" width="125" height="30" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td width="125" height="30"><a href="guide/sources.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sources','','images/navbar/srceon.gif',1)"><img src="images/navbar/srceoff.gif" alt="Click here for a list of sources consulted in compiling the database." name="Sources" width="125" height="30" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="30"><a href="guide/update.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('update','','images/navbar/updon.gif',1)"><img src="images/navbar/updoff.gif" alt="Click here to see  the Bibliographical Updates 1&#8211;4, refered to in the database." name="update" width="125" height="30" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="1">&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td width="125" height="30"><a href="credits.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('credits','','images/navbar/credon.gif',1)"><img src="images/navbar/credoff.gif" alt="Click here for details about the project members and acknowledgements for external support." name="credits" width="125" height="30" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td width="125" height="30"><a href="links.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('links','','images/navbar/linkon.gif',1)"><img src="images/navbar/linkoff.gif" alt="Click here for links to other related websites." name="links" width="125" height="30" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td height="30"><a href="sitemap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sitemap','','images/navbar/siteon.gif',1)"><img src="images/navbar/siteoff.gif" alt="Click here to see a full map of this website." name="Sitemap" width="125" height="30" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td width="125" height="1">&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle"> 
+          <td><a href="http://www.cf.ac.uk"><img src="images/cardiff.gif" width="85" height="82" border="0" vspace="10" align="middle" hspace="0" alt="Click here to visit Cardiff University&#146;s Homepage."></a></td>
+        </tr>
+      </table>
+
+
+      <p align="center">&nbsp;</p></td>
+    <td rowspan="16" valign="top" align="left">
+      
+      <table width="100%" height="100%" border="0" align="center" cellpadding="10" bgcolor="#FFFFFF">
+        <tr> 
+          <td align="left" valign="top" background="images/backgrnd.gif"><h1 align="left">Title 
+              details for 
+              <i>Three Weeks at Fladong's</i>: </h1>
+            <div align="left"> 
+              <table width="95%" border="0" align="center" cellpadding="2" cellspacing="2">
+                <tr align="left" valign="top"> 
+                  <td width="20%"><strong>Year:</strong></td>
+                  <td width="80%">1817.</td>
+                </tr>
+                
+                <tr align="left" valign="top"> 
+                  <td width="20%"><strong>Author(s):</strong></td>
+                  <td width="80%">
+                    
+                        <a href="authorTitles.asp?author=13" title="Go to list of titles by this author"><b>ANON</b></a>&nbsp;
+                  </td>
+                </tr>
+                
+                <tr align="left" valign="top"> 
+                  <td width="20%"><strong>Gender:</strong></td>
+                  <td width="80%">Unknown.</td>
+                </tr>
+                <tr align="left" valign="top"> 
+                  <td width="20%"><strong>Title:</strong></td>
+                  <td width="80%"><i>
+                    THREE WEEKS AT FLADONG'S. A NOVEL. BY A LATE VISITANT. IN THREE VOLUMES.
+                    </i></td>
+                </tr>
+                <tr align="left" valign="top"> 
+                  <td width="20%"><strong>Publication:</strong></td>
+                  <td width="80%">London: 
+                    Printed for the Author, and sold by all Booksellers in Town and Country, 1817. </td>
+                </tr>
+                <tr align="left" valign="top"> 
+                  <td width="20%"><strong>Format:</strong></td>
+                  <td width="80%">3 vols (I iii, 220p; II 227p; III 245p). 12&deg;.</td>
+                </tr>
+                <tr align="left" valign="top"> 
+                  <td width="20%"><strong>Cat. nos:</strong></td>
+                  <td width="80%">BL 1153.g.22; ECB 590; EN2 1817: 9; NSTC 2F7765; OCLC 36749601.</td>
+                </tr>
+                
+                <tr align="left" valign="top"> 
+                  <td width="20%"><strong>Notes:</strong></td>
+                  <td width="80%">ECB lists Iley as publisher, but not discovered in this form.</td>
+                </tr>
+                
+				<tr align="left" valign="top"> 
+                  <td width="20%"><strong>DBF record no:</strong></td>
+                  <td width="80%">1817A010.</td></tr>
+              </table>
+              <br>
+              <b> </b> 
+              <table width="345" height="50" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr align="center" valign="middle"> 
+                  <td width="115" height="25"> 
+				   <a href="newspapers/thre17-9.html" onClick="return popup('newspapers/thre17-9.html')"><img src="images/records/advyes.gif" alt="Newspaper Advertisements: Information Available" width="115" height="25" border="0"></a> 
+                    </td>
+                  <td width="115" height="25"> 
+				   <img src="images/records/aneno.gif" alt="Anecdotal Records: No Information Available" width="115" height="25" border="0">
+                    </td>
+                  <td width="115" height="25"> 
+				   <a href="circlibs/thre17-9.html" onClick="return popup('circlibs/thre17-9.html')"><img src="images/records/libyes.gif" alt="Contemporary Libraries: Information Available" width="115" height="25" border="0"></a> 
+                    </td>
+                </tr>
+                <tr align="center" valign="middle"> 
+                   <td width="115" height="25"> 
+				   <img src="images/records/pubno.gif" alt="Publishing Papers: No Information Available" width="115" height="25" border="0">
+                    </td>
+                  <td width="115" height="25"> 
+				   <img src="images/records/revno.gif" alt="Contemporary Reviews: No Information Available" width="115" height="25" border="0">
+                    </td>
+                  <td width="115" height="25"> 
+				   <img src="images/records/subno.gif" alt="Subscription Lists: No Information Available" width="115" height="25" border="0">
+                    </td>
+                </tr>
+              </table>
+            </div>
+            <p align="center"><a href="guide/abbrevrcd.html" class="navBlock" onClick="return popup('../guide/abbrevrcd.html')">Click 
+              here to open a list of abbreviations.</a> </p>
+            <table width="95%" border="0" align="center" cellpadding="2" cellspacing="2">
+              <tr class="navBlock"> 
+                <td align="left" width="33%"> 
+                  
+                  <a href="titleDetails.asp?title=1800A076" title="Prev title "><img src="images/records/prevoff.gif" name="Prev" width="40" height="40" align="absmiddle" id="Prev" onMouseOver="MM_swapImage('Prev','','images/records/prevon.gif',1)" onMouseOut="MM_swapImgRestore()"> 
+                  <i>Three Spaniards, The</i></a> 
+                  
+                  &nbsp; </td>
+                <td align="center" width="34%">&nbsp;  &nbsp; </td>
+                <td align="right" width="33%">&nbsp; 
+                  
+                  <a href="titleDetails.asp?title=1829A012" title="Next title "> 
+                  <i>Three Weeks in the Downs</i> <img src="images/records/nextoff.gif" name="Next" width="40" height="40" align="absmiddle" id="Next" onMouseOver="MM_swapImage('Next','','images/records/nexton.gif',1)" onMouseOut="MM_swapImgRestore()"></a> 
+                  
+                </td>
+              </tr>
+            </table>
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr align="center" valign="middle"> 
+                <td width="40">&nbsp;</td>
+                <td><br> &nbsp;<img src="images/bar.gif" width="429" height="17" align="middle"><br> 
+                  <strong><span class="small">&nbsp;&copy; 2004 <font color="#1153BD">Project 
+                  Director:</font> Professor Peter Garside;<br>
+                  <font color="#1153BD">&nbsp;Research Associates:</font> Dr Jacqueline 
+                  Belanger, Dr Sharon Ragaz;<br>
+                  <font color="#1153BD">&nbsp;Database/Website Developer:</font> 
+                  Dr Anthony Mandal</span></strong></td>
+                <td width="40"><strong><font color="#1153BD"><a href="#top" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Up','','images/upon.gif',1)"><img src="images/upoff.gif" alt="Click here to go to the top of the page." name="Up" width="40" height="40" border="0" align="right" class="navBlock"></a></font></strong></td>
+              </tr>
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+</body>
+</html>
