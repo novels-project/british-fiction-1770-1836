@@ -30,18 +30,22 @@ if __name__ == '__main__':
         # skip header and separators
         if 'TitleDetails' not in title_href:
             continue
-        title_search = re.search(r'title=([0-9A-Z]+)&', title_href)
+        # get unique title_id
         try:
-            title_id = title_search.group(1)
+            title_id = re.search(r'title=([0-9A-Z]+)&', title_href).group(1)
         except AttributeError:
             msg = "Did not find title id for record in href: {}".format(title_href)
             raise RuntimeError(msg)
-        record_url = BASE_URL + 'Titlerecords.asp?title={:s}&browse=y'.format(title_id)
+        record_url = BASE_URL + 'TitleDetails.asp?title={:s}&browse=y'.format(title_id)
         record_fn = os.path.join(OUTPUT_DIR, os.path.basename(record_url))
         if record_fn in record_filenames:
             raise RuntimeError("Encountered duplicate record: ".format(record_fn))
         record_filenames.add(record_fn)
         print("Fetching {}".format(title_id))
         record_html = requests.get(record_url).text
+        if not re.search('Title\s+details\s+for', record_html):
+            msg = "Failed to retrieve record, url: {}".format(record_url)
+            print(record_html)
+            raise RuntimeError(msg)
         with open(record_fn, 'w', encoding='utf-8') as f:
             f.write(record_html)
