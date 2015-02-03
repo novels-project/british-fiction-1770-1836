@@ -9,7 +9,12 @@ list of novels described in the following sources:
 
 ## Data
 
-- Data `http://www.british-fiction.cf.ac.uk` was retrieved using `scripts/download-british-fiction-1800-1836.py`.
+Data `http://www.british-fiction.cf.ac.uk` was retrieved using `scripts/download-british-fiction-1800-1836.py`.
+
+## Processing
+
+The downloaded pages are processed with `scripts/process-british-fiction-1800-1829.py`, resulting
+in the utf-8 encoded file `data/british-fiction-1800-1829.json` which contains a JSON-encoded dictionary.
 
 ## TODO
 
