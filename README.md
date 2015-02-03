@@ -1,21 +1,22 @@
-# Dataset for Bibliographical Survey of Prose Fiction Published in the British Isles
+# Machine-readable version of Bibliographical Survey of Prose Fiction Published in the British Isles
 
-Scripts and original data required to generate a merged dataset (CSV) with a
-list of novels described in the following sources:
+Scripts and copies of original data required to generate machine-readable versions
+of the following sources:
 
 * "British Fiction 1800-1829," ed. Garside et al. http://www.british-fiction.cf.ac.uk
 * "The English Novel, 1830-1836," ed. Garside et al. http://www.cardiff.ac.uk/encap/journals/corvey/1830s/index.html
 * Updates 1-6. http://www.romtext.cf.ac.uk/reports/index.html
 
-## Data
+The following files contain machine-readable versions of these sources:
 
-Data `http://www.british-fiction.cf.ac.uk` was retrieved using `scripts/download-british-fiction-1800-1836.py`.
+- `data/british-fiction-1800-1829.json`
 
-## Processing
+## Recreating the dataset
 
-The downloaded pages are processed with `scripts/process-british-fiction-1800-1829.py`, resulting
-in the utf-8 encoded file `data/british-fiction-1800-1829.json` which contains a JSON-encoded dictionary.
+1. Retrieve the index and detail pages from  `http://www.british-fiction.cf.ac.uk` using `scripts/download-british-fiction-1800-1836.py`.
+2. Process the downloaded pages with `scripts/process-british-fiction-1800-1829.py`.
 
 ## TODO
 
-- Add 1770–99
+- Updates 1830-1836
+- Add 1770-99
