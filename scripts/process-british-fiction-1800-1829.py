@@ -22,10 +22,11 @@ if __name__ == '__main__':
     record_filenames = set()
     records = []
     for rec in soup('tr', valign="top"):
-        title_href = rec.a.attrs['href']
+        title_hrefs = [a.attrs['href'] for a in rec('a') if 'TitleDetails' in a.attrs['href']]
         # skip header and separators
-        if 'TitleDetails' not in title_href:
+        if len(title_hrefs) != 1:
             continue
+        title_href = title_hrefs.pop()
         # get unique title_id
         try:
             title_id = re.search(r'title=([0-9A-Z]+)&', title_href).group(1)
