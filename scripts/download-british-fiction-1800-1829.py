@@ -22,10 +22,11 @@ if __name__ == '__main__':
         with open(index_fn, 'w', encoding='utf-8') as f:
             f.write(index_html)
     soup = bs4.BeautifulSoup(open(index_fn, 'r', encoding='utf-8'))
-    records = soup('tr', valign="top")
+    # get every link on the page
+    links = soup('a')
     record_filenames = set()
-    for i, rec in enumerate(records):
-        title_href = rec.a.attrs['href']
+    for i, a in enumerate(links):
+        title_href = a.attrs['href']
 
         # skip header and separators
         if 'TitleDetails' not in title_href:
@@ -38,6 +39,9 @@ if __name__ == '__main__':
             raise RuntimeError(msg)
         record_url = BASE_URL + 'TitleDetails.asp?title={:s}&browse=y'.format(title_id)
         record_fn = os.path.join(OUTPUT_DIR, os.path.basename(record_url))
+        if os.path.exists(record_fn):
+            print("File for record {} already exists, skipping".format(title_id))
+            continue
         if record_fn in record_filenames:
             raise RuntimeError("Encountered duplicate record: ".format(record_fn))
         record_filenames.add(record_fn)
@@ -45,7 +49,6 @@ if __name__ == '__main__':
         record_html = requests.get(record_url).text
         if not re.search('Title\s+details\s+for', record_html):
             msg = "Failed to retrieve record, url: {}".format(record_url)
-            print(record_html)
             raise RuntimeError(msg)
         with open(record_fn, 'w', encoding='utf-8') as f:
             f.write(record_html)
