@@ -52,6 +52,7 @@ if __name__ == '__main__':
         line_cleaned = re.sub(r'\s+', ' ', bs4.BeautifulSoup(lines[1]).text)
         if re.search(r'[A-Z]+', line_cleaned) is None:
             raise RuntimeError("Did not find title in title id {}".format(title_id))
+        record['title'] = line_cleaned
 
         # extract publisher
         # first remove initial closing tags
@@ -83,4 +84,7 @@ if __name__ == '__main__':
         s = s.replace('\x92', '\u2019')
         # for some reason 0x91 sneaks in to the HTML; it's ‘ \u2018
         s = s.replace('\x91', '\u2018')
+        # corrections for “ and ”
+        s = s.replace('\x93', '\u201c')
+        s = s.replace('\x94', '\u201d')
         f.write(s)

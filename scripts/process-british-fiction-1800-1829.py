@@ -253,4 +253,11 @@ if __name__ == '__main__':
         s = s.replace('\x97', '\u2014')
         # for some reason 0x97 sneaks in to the HTML; it's an ellipsis \u2026
         s = s.replace('\x85', '\u2026')
+        # for some reason 0x92 sneaks in to the HTML; it's ’ \u2019
+        s = s.replace('\x92', '\u2019')
+        # for some reason 0x91 sneaks in to the HTML; it's ‘ \u2018
+        s = s.replace('\x91', '\u2018')
+        # corrections for “ and ”
+        s = s.replace('\x93', '\u201c')
+        s = s.replace('\x94', '\u201d')
         f.write(s)
