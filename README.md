@@ -11,6 +11,8 @@ of the following sources:
 The following files contain machine-readable versions of these sources:
 
 - `data/british-fiction-1800-1829.json`
+- `data/british-fiction-1830-1836.json`
+- `data/british-fiction-1800-1829-updates.json`
 
 Recreating the dataset (1800-1829)
 ----------------------------------
@@ -32,16 +34,40 @@ A copy of `1830-36.html` is stored in this repository. The server at
 `http://www.cf.ac.uk/` reports its last modification date as: Tue, 22 May 2012
 12:40:26 GMT
 
+Recreating the dataset (Updates 1-6)
+------------------------------------
+
+There are 4 novels given in the "New Titles for Inclusion" sections of Updates
+4 through 6. These have been entered manually into
+`data/british-fiction-1800-1829-updates.json`. Copies of Updates 1-6 are stored
+in the repository.
+
+The section "C: New Titles for Inclusion" in
+[Updates 1-6](http://www.romtext.cf.ac.uk/reports/index.html) lists a small number of
+novels that have been discovered since the publication of British Fiction,
+1800-1829.
+
+Some of these new entries are in the `http://www.british-fiction.cf.ac.uk` database.
+
+- "New Titles for Inclusion" in [Update 1](http://www.romtext.cf.ac.uk/reports/engnov1.html) are included in 1800-1829.
+- "New Titles for Inclusion" in [Update 2](http://www.romtext.cf.ac.uk/reports/engnov2.html) are included in 1800-1829.
+- "New Titles for Inclusion" in [Update 3](http://www.romtext.cf.ac.uk/reports/engnov3.html) are included in 1800-1829.
+
+Some of these new entires **are not** in the `http://www.british-fiction.cf.ac.uk` database.
+
+- "New Titles for Inclusion" in [Update 4](http://www.romtext.cf.ac.uk/reports/engnov4.html) *are not* included in 1800-1829.
+- "New Titles for Inclusion" in [Update 5](http://www.romtext.cf.ac.uk/reports/engnov5.html) *are not* included in 1800-1829.
+- "New Titles for Inclusion" in [Update 6](http://www.romtext.cf.ac.uk/reports/engnov6.html) *are not* included in 1800-1829.
+
+The novel referenced in Update 5 and Update 6 is the same one: ANON. DE COURCY: A TALE. Isle of Wight: The Author, 1825.
+
 Correcting errors
 -----------------
 
-**Do not edit the `data/british-fiction-1800-1829.json` directly.** If there is
-an error that is the result of parsing the mirror of
-`http://www.british-fiction.cf.ac.uk` the errors need to be corrected in the
-parsing scripts.
+**Do not edit the `british-fiction-1800-1829.json` or `british-fiction-1830-1836.json` directly.** If there is an error that is the
+result of parsing the mirror of `http://www.british-fiction.cf.ac.uk` the
+errors need to be corrected in the parsing scripts.
 
 TODO
 ----
-
-- Add "updates" from updates 1-6 that are not included (e.g., update 6 has a text by ANON with title De Courcy...)
 - Add 1770-99 (not yet trivially machine readable)
